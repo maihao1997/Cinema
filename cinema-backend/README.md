@@ -5,7 +5,7 @@
 ```
 make bootstrap
 ```
-
+if you don't add docker group, you can add 'sudo' prefix make...
 
 
 ## Run
