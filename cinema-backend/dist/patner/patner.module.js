@@ -1,0 +1,1 @@
+//# sourceMappingURL=patner.module.js.map

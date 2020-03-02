@@ -1,0 +1,1 @@
+//# sourceMappingURL=patner.controller.js.map

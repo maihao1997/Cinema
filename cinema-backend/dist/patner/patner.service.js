@@ -1,0 +1,1 @@
+//# sourceMappingURL=patner.service.js.map
