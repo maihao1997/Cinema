@@ -38,10 +38,12 @@ You can use postman to test.
 
 post    {
         "username":"Admin",
-        "password":123456
+        "password":"123456"
         }
 to `http://139.162.18.20:3000/api/auth/login`
 to gen Token and then set Token into Postman to test another api.
+
+server: use pm2 to start
 
 ## Front-end:
 Because it does not work. So I didn't post it on github.
