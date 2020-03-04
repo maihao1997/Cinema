@@ -1,6 +1,10 @@
+import { ApiProperty } from '@nestjs/swagger';
 export class movie_theater_add_dto {
-    readonly title: string;
-    readonly place: string;
+  @ApiProperty()  
+  readonly title: string;
+
+  @ApiProperty()
+  readonly place: string;
   }
 
 export class movie_theater_update_dto {

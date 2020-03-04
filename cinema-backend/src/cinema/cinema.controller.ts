@@ -122,19 +122,5 @@ export class CinemaController {
     return this.ReservationService.findAll();
   }
 
-  // @Get('patner/welcome')
-  // getWelcome() {
-  //   let username = 'hello';
-  //   console.log(username)
-  //   // const token = headers.authorization.split(' ')[1];
-  //   // const decoded: any = jwt.verify(token, 'secretKey');
 
-  //   // let username;
-  //   // if (decoded.username) {
-  //   //   username = decoded.user.username;
-  //   // } else {
-  //   //   username = decoded.guest.username;
-  //   // }
-  //   return this.ReservationService.getPatner(username);
-  // }
 }

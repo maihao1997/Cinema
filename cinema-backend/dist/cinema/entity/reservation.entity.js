@@ -10,6 +10,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const typeorm_1 = require("typeorm");
+const movie_theater_entity_1 = require("./movie_theater.entity");
+const seat_reserved_entity_1 = require("./seat_reserved.entity");
+const screening_entity_1 = require("./screening.entity");
+const movie_entity_1 = require("./movie.entity");
 let Reservation = class Reservation {
 };
 __decorate([
@@ -17,7 +21,8 @@ __decorate([
     __metadata("design:type", String)
 ], Reservation.prototype, "id", void 0);
 __decorate([
-    typeorm_1.Column(),
+    typeorm_1.OneToOne(type => movie_theater_entity_1.MovieTheater),
+    typeorm_1.JoinColumn(),
     __metadata("design:type", String)
 ], Reservation.prototype, "movie_theater_id", void 0);
 __decorate([
@@ -25,15 +30,18 @@ __decorate([
     __metadata("design:type", String)
 ], Reservation.prototype, "reservation_type_id", void 0);
 __decorate([
-    typeorm_1.Column(),
+    typeorm_1.OneToOne(type => seat_reserved_entity_1.SeatReserved),
+    typeorm_1.JoinColumn(),
     __metadata("design:type", String)
 ], Reservation.prototype, "seat_reserved_id", void 0);
 __decorate([
-    typeorm_1.Column(),
+    typeorm_1.OneToOne(type => screening_entity_1.Screening),
+    typeorm_1.JoinColumn(),
     __metadata("design:type", String)
 ], Reservation.prototype, "screening_id", void 0);
 __decorate([
-    typeorm_1.Column(),
+    typeorm_1.OneToOne(type => movie_entity_1.Movie),
+    typeorm_1.JoinColumn(),
     __metadata("design:type", String)
 ], Reservation.prototype, "movie_id", void 0);
 Reservation = __decorate([

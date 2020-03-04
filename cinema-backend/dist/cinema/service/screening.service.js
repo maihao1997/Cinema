@@ -131,6 +131,7 @@ let ScreeningService = class ScreeningService {
         reservation.movie_theater_id = movie_theater_id;
         reservation.reservation_type_id = reservation_type_id;
         let creat_reservation = await this.reservationRepository.save(reservation);
+        console.log(creat_reservation);
         const seat_reserved = new seat_reserved_entity_1.SeatReserved();
         seat_reserved.seat_id = list_seat_reserved_id;
         seat_reserved.reservation_id = creat_reservation.id;

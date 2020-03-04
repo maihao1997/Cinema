@@ -14,6 +14,7 @@ import { Reservation } from './cinema/entity/reservation.entity';
 import { APP_FILTER, APP_INTERCEPTOR } from '@nestjs/core';
 import { HttpErrorFilter } from './shared/http-error.filter';
 import { LoggingInterceptor } from './shared/logging.interceptor';
+import { Auditorium } from './cinema/entity/auditorium.entity';
 
 @Module({
   imports: [
@@ -24,7 +25,7 @@ import { LoggingInterceptor } from './shared/logging.interceptor';
       username: 'root',
       password: 'root',
       database: 'test',
-      entities: [Movie,Screening,MovieTheater,SeatReserved,Seat,Reservation],
+      entities: [Movie,Screening,MovieTheater,SeatReserved,Seat,Reservation,Auditorium],
       synchronize: true,
     }),
     CinemaModule,

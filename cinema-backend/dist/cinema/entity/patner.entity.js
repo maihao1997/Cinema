@@ -16,34 +16,6 @@ __decorate([
     typeorm_1.PrimaryGeneratedColumn(),
     __metadata("design:type", String)
 ], Patner.prototype, "id", void 0);
-__decorate([
-    typeorm_1.Column({ length: 500 }),
-    __metadata("design:type", String)
-], Patner.prototype, "title", void 0);
-__decorate([
-    typeorm_1.Column(),
-    __metadata("design:type", String)
-], Patner.prototype, "director", void 0);
-__decorate([
-    typeorm_1.Column(),
-    __metadata("design:type", Number)
-], Patner.prototype, "cast", void 0);
-__decorate([
-    typeorm_1.Column('text'),
-    __metadata("design:type", String)
-], Patner.prototype, "description", void 0);
-__decorate([
-    typeorm_1.Column(),
-    __metadata("design:type", Number)
-], Patner.prototype, "duration_min", void 0);
-__decorate([
-    typeorm_1.Column(),
-    __metadata("design:type", Boolean)
-], Patner.prototype, "isStart", void 0);
-__decorate([
-    typeorm_1.Column(),
-    __metadata("design:type", Boolean)
-], Patner.prototype, "status", void 0);
 Patner = __decorate([
     typeorm_1.Entity()
 ], Patner);

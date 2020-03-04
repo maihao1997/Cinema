@@ -1,19 +1,27 @@
-import { Column, Entity, PrimaryGeneratedColumn, Timestamp } from 'typeorm';
+import { Column, Entity, PrimaryGeneratedColumn, JoinColumn, OneToOne, OneToMany } from 'typeorm';
+import { Seat } from './seat.entity';
+import { Reservation } from './reservation.entity';
+import { MovieTheater } from './movie_theater.entity';
+import { Screening } from './screening.entity';
 
 @Entity()
 export class SeatReserved{
   @PrimaryGeneratedColumn()
   id: string;
 
-  @Column({ length: 500 })
+  @OneToOne(type => Seat)
+  @JoinColumn()
   seat_id: string;
 
-  @Column()
+  @OneToOne(type => Reservation)
+  @JoinColumn()
   reservation_id: string;
 
-  @Column()
+  @OneToOne(type => MovieTheater)
+  @JoinColumn()
   movie_theater_id: string;
 
-  @Column()
+  @OneToOne(type => Screening)
+  @JoinColumn()
   screening_id: string;
 }

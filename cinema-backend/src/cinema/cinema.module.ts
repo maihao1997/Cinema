@@ -11,6 +11,7 @@ import { SeatReserved } from './entity/seat_reserved.entity';
 import { Seat } from './entity/seat.entity';
 import { Reservation } from './entity/reservation.entity';
 import { ReservationService } from './service/reservation.service';
+import { Auditorium } from './entity/auditorium.entity';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { ReservationService } from './service/reservation.service';
     TypeOrmModule.forFeature([SeatReserved]),
     TypeOrmModule.forFeature([Seat]),
     TypeOrmModule.forFeature([Reservation]),
+    TypeOrmModule.forFeature([Auditorium]),
   ],
   controllers: [CinemaController],
   providers: [MovieService, ScreeningService, MovieTheaterService, ReservationService],

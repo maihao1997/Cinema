@@ -151,6 +151,7 @@ export class ScreeningService {
     reservation.reservation_type_id = reservation_type_id;
 
     let creat_reservation = await this.reservationRepository.save(reservation);
+    console.log(creat_reservation )
 
     const seat_reserved = new SeatReserved()
     seat_reserved.seat_id = list_seat_reserved_id;

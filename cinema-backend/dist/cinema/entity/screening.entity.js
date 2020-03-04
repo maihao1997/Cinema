@@ -10,6 +10,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const typeorm_1 = require("typeorm");
+const movie_theater_entity_1 = require("./movie_theater.entity");
+const auditorium_entity_1 = require("./auditorium.entity");
+const movie_entity_1 = require("./movie.entity");
 let Screening = class Screening {
 };
 __decorate([
@@ -17,15 +20,18 @@ __decorate([
     __metadata("design:type", String)
 ], Screening.prototype, "id", void 0);
 __decorate([
-    typeorm_1.Column({ length: 500 }),
+    typeorm_1.OneToOne(type => movie_theater_entity_1.MovieTheater),
+    typeorm_1.JoinColumn(),
     __metadata("design:type", String)
 ], Screening.prototype, "movie_theater_id", void 0);
 __decorate([
-    typeorm_1.Column(),
+    typeorm_1.OneToOne(type => movie_entity_1.Movie),
+    typeorm_1.JoinColumn(),
     __metadata("design:type", String)
 ], Screening.prototype, "movie_id", void 0);
 __decorate([
-    typeorm_1.Column(),
+    typeorm_1.OneToOne(type => auditorium_entity_1.Auditorium),
+    typeorm_1.JoinColumn(),
     __metadata("design:type", String)
 ], Screening.prototype, "auditorium_id", void 0);
 __decorate([

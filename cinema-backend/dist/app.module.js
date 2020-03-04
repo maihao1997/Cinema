@@ -22,6 +22,7 @@ const reservation_entity_1 = require("./cinema/entity/reservation.entity");
 const core_1 = require("@nestjs/core");
 const http_error_filter_1 = require("./shared/http-error.filter");
 const logging_interceptor_1 = require("./shared/logging.interceptor");
+const auditorium_entity_1 = require("./cinema/entity/auditorium.entity");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -34,7 +35,7 @@ AppModule = __decorate([
                 username: 'root',
                 password: 'root',
                 database: 'test',
-                entities: [movie_entity_1.Movie, screening_entity_1.Screening, movie_theater_entity_1.MovieTheater, seat_reserved_entity_1.SeatReserved, seat_entity_1.Seat, reservation_entity_1.Reservation],
+                entities: [movie_entity_1.Movie, screening_entity_1.Screening, movie_theater_entity_1.MovieTheater, seat_reserved_entity_1.SeatReserved, seat_entity_1.Seat, reservation_entity_1.Reservation, auditorium_entity_1.Auditorium],
                 synchronize: true,
             }),
             cinema_module_1.CinemaModule,

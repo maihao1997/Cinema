@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryGeneratedColumn, Timestamp } from 'typeorm';
+import { Column, Entity, PrimaryGeneratedColumn, JoinColumn, OneToOne } from 'typeorm';
+import { Auditorium } from './auditorium.entity';
 
 @Entity()
 export class Seat{
@@ -11,7 +12,8 @@ export class Seat{
   @Column()
   number: number;
 
-  @Column()
+  @OneToOne(type => Auditorium)
+  @JoinColumn()
   auditorium_id: string;
 
 }

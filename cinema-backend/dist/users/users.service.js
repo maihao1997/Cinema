@@ -21,7 +21,7 @@ let UsersService = class UsersService {
         ];
     }
     async findOne(username) {
-        return this.users.find(user => user.username === username);
+        return console.log(this.users.find(user => user.username === username));
     }
 };
 UsersService = __decorate([

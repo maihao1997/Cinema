@@ -938,7 +938,7 @@
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
       "../src/users/users.service.ts": {
-        "version": "7cc9c1ade845f5d0eda7f5bd10caf7aa90b256781d9f975258a0f0b9791bbb76",
+        "version": "a2573d655b4b92286b46df4f3b1d81e24920687379a5bfa389fcd66414e2dc9d",
         "signature": "84628b8f74a26fbc26e861aadb045a27f5fbeba435c6769792edc4c608d59735"
       },
       "../node_modules/@types/jsonwebtoken/index.d.ts": {
@@ -2013,40 +2013,168 @@
         "version": "5ab72cf751360fff07bc30bcd4d54745d5c741ce9c46f1759060644fb9d4ae15",
         "signature": "de6ad2e13840ac22049ab73a6405c76ef75b2f43df74ea607e1728bfbee87909"
       },
+      "../src/cinema/entity/movie_theater.entity.ts": {
+        "version": "d1f8c2a256f5fe1556bda7954a3b41b1daa2adc56c6660e647854acbda71cb53",
+        "signature": "3810193c69637b0a9b8a0432f4700a803e0a27ad5e9988114d7583c6df71c9fc"
+      },
+      "../src/cinema/entity/auditorium.entity.ts": {
+        "version": "bc2dec2ae739c20084883f58efdbc8f3cc1086c546c71a642dc89b96e1dd8151",
+        "signature": "b88860daed22c0da2230edef96607f73af7aaa2f82dd65fb7bf127aef82378c8"
+      },
       "../src/cinema/entity/screening.entity.ts": {
-        "version": "b6d0a5b01f389c8ff0d5057a1f9bc976177065f3f7f87f209290c1adb66ecccd",
+        "version": "d23837ee6a1c8e7a9a03db23ea4cf13c4e8467e2bdaa170cb89b4eb84ea9698d",
         "signature": "0093272b1d74d23a71a313956e570f3fc79a4fd160120c816f6b19481be147bd"
       },
       "../src/cinema/dto/screening.dto.ts": {
         "version": "e552e8f9fe36d9650a707a049c7ec65e48bbf8b3265ea8b5e7fd51258c0ac75c",
         "signature": "0450486a8692d5dd0ccd486216daa2c69e707335423891de37c4835d5ceebb7f"
       },
-      "../src/cinema/entity/seat_reserved.entity.ts": {
-        "version": "9f2f5214a6856606082146a3fd6ace57616c31410ea7e5c70c351fdc21666ae0",
-        "signature": "984b541c904412cee4154d84fcb4ce2658ec7033a572be8831bd439f5ee1a5ef"
-      },
       "../src/cinema/entity/seat.entity.ts": {
-        "version": "d4432eeae4cd1a2d70c017b9d9c10d40752498dd879e1a2b9a36a234a2bce4cd",
+        "version": "dc2c165a1ae10ed9715cda9d5707608f6f53a40320ae1977e73c5df6389845cb",
         "signature": "190888dd3b3bd77d6deaae6d748be885efcd97146c17daf2f99935cf5eec3acf"
       },
       "../src/cinema/entity/reservation.entity.ts": {
-        "version": "b524cb6801c1e7d335ead745a30610fb811c465ffbb1c3f28e246032ff246093",
+        "version": "d42c714e1cd54e30abe299f37be3f80c9d5ff9dc708a22834dd9cf6a858db41a",
         "signature": "80d49199c49f681ea65e4fec195fc893c7df3a34532e37379862799043ac8a7b"
+      },
+      "../src/cinema/entity/seat_reserved.entity.ts": {
+        "version": "fed24f0dc78698789cd4d402333c13932faebe092eb781740f224cda416d724b",
+        "signature": "984b541c904412cee4154d84fcb4ce2658ec7033a572be8831bd439f5ee1a5ef"
       },
       "../src/cinema/dto/reservation_ticket.dto.ts": {
         "version": "4f13a9ab621b565a6198eef6b94948c9e6896fe87bce8dba4eb068d34ee46ec4",
         "signature": "998b4092623a7b51dabafa4978b7db2fad71bfa3e62b94dcc68b06bbdfe668ad"
       },
-      "../src/cinema/entity/movie_theater.entity.ts": {
-        "version": "d1f8c2a256f5fe1556bda7954a3b41b1daa2adc56c6660e647854acbda71cb53",
-        "signature": "3810193c69637b0a9b8a0432f4700a803e0a27ad5e9988114d7583c6df71c9fc"
-      },
       "../src/cinema/service/screening.service.ts": {
-        "version": "222be3b044d3d02c496900e1269e4ad393bc21ebc5ea48751f9c0dc1e5fb8267",
+        "version": "04d4a2a44ef07c8f890e74029c2b8b8b6f28e1f2ad297bef90e1b953c962d2b1",
         "signature": "de19acc2bdc4bbc55a1bb2718041c9ec071d0d5f027c6002c1a2967527a7acb9"
       },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts": {
+        "version": "6ecc423e71318bafbd230e6059e082c377170dfc7e02fccfa600586f8604d452",
+        "signature": "6ecc423e71318bafbd230e6059e082c377170dfc7e02fccfa600586f8604d452"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts": {
+        "version": "772f9bdd2bf50c9c01b0506001545e9b878faa7394ad6e7d90b49b179a024584",
+        "signature": "772f9bdd2bf50c9c01b0506001545e9b878faa7394ad6e7d90b49b179a024584"
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts": {
+        "version": "7042fea4affa85bd05c1c7c9a2e42773738e3aced630b1c7e8e6b48e90a48069",
+        "signature": "7042fea4affa85bd05c1c7c9a2e42773738e3aced630b1c7e8e6b48e90a48069"
+      },
+      "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts": {
+        "version": "02dafa194c95b7c0293059512b8ea3bd95402c6e4bc8331dab7e92e842260c56",
+        "signature": "02dafa194c95b7c0293059512b8ea3bd95402c6e4bc8331dab7e92e842260c56"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts": {
+        "version": "10e0bec39a58664907f32d33b825155a4efea3e74e62bd57206bce35486891d6",
+        "signature": "10e0bec39a58664907f32d33b825155a4efea3e74e62bd57206bce35486891d6"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts": {
+        "version": "cd1ccdd9fd7980d43dfede5d42ee3d18064baed98b136089cf7c8221d562f058",
+        "signature": "cd1ccdd9fd7980d43dfede5d42ee3d18064baed98b136089cf7c8221d562f058"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts": {
+        "version": "09adc0cb93ff0ed4dbec311664bb4d63ef5d017cc994680d2888050dbccbd24c",
+        "signature": "09adc0cb93ff0ed4dbec311664bb4d63ef5d017cc994680d2888050dbccbd24c"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts": {
+        "version": "999fa84c5df2d19909d68a43ce89a5dddfb30e526f7796ea995809a09f53e393",
+        "signature": "999fa84c5df2d19909d68a43ce89a5dddfb30e526f7796ea995809a09f53e393"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts": {
+        "version": "a1c3f57b4a8fab964b3db5b6a9aeb8fd4472b58e0c51673984c59809f0b55fec",
+        "signature": "a1c3f57b4a8fab964b3db5b6a9aeb8fd4472b58e0c51673984c59809f0b55fec"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts": {
+        "version": "ae23a65a2b664ffe979b0a2a98842e10bdf3af67a356f14bbc9d77eb3ab13585",
+        "signature": "ae23a65a2b664ffe979b0a2a98842e10bdf3af67a356f14bbc9d77eb3ab13585"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts": {
+        "version": "eccf6ad2a8624329653896e8dbd03f30756cbd902a81b5d3942d6cf0e1a21575",
+        "signature": "eccf6ad2a8624329653896e8dbd03f30756cbd902a81b5d3942d6cf0e1a21575"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": {
+        "version": "334ed2e25a7ebc8db8aac231bab5a5b57a1b6f8063186a92314f4ddf3d74d4e2",
+        "signature": "334ed2e25a7ebc8db8aac231bab5a5b57a1b6f8063186a92314f4ddf3d74d4e2"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts": {
+        "version": "5af015a9834e0f5cf56a9089ddf0ca87a56bd3f8ad0eb79c8cc95968aa867923",
+        "signature": "5af015a9834e0f5cf56a9089ddf0ca87a56bd3f8ad0eb79c8cc95968aa867923"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts": {
+        "version": "62463aa3d299ae0cdc5473d2ac32213a05753c3adce87a8801c6d2b114a64116",
+        "signature": "62463aa3d299ae0cdc5473d2ac32213a05753c3adce87a8801c6d2b114a64116"
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts": {
+        "version": "c9c2eabaad71c534d7de16385977f95184fdf3ddd0339dadbd5d599488d94f90",
+        "signature": "c9c2eabaad71c534d7de16385977f95184fdf3ddd0339dadbd5d599488d94f90"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts": {
+        "version": "bdf0a372e233a8f5ab5daba2763ab8897e1044d735c1698a261b8e2ab08d8d13",
+        "signature": "bdf0a372e233a8f5ab5daba2763ab8897e1044d735c1698a261b8e2ab08d8d13"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts": {
+        "version": "e217963df120e4e87abaf374c5060ade29b9b81dafc81287b3710f95b49ffde0",
+        "signature": "e217963df120e4e87abaf374c5060ade29b9b81dafc81287b3710f95b49ffde0"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": {
+        "version": "09500c54a8b7405b2300e5e1716fb1c35627ad90b966db78962fdeeb77d58461",
+        "signature": "09500c54a8b7405b2300e5e1716fb1c35627ad90b966db78962fdeeb77d58461"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts": {
+        "version": "f6b244e6e11ff78419f979c56e1c8eecd277c54fa932a1eae39f69530ed6b0ce",
+        "signature": "f6b244e6e11ff78419f979c56e1c8eecd277c54fa932a1eae39f69530ed6b0ce"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts": {
+        "version": "fef736cfb404b4db9aa942f377dbbac6edb76d18aabd3b647713fa75da8939e9",
+        "signature": "fef736cfb404b4db9aa942f377dbbac6edb76d18aabd3b647713fa75da8939e9"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts": {
+        "version": "45659c92e49dfca4601acc7e57fbb03a71513c69768984baf86ead8d20387a01",
+        "signature": "45659c92e49dfca4601acc7e57fbb03a71513c69768984baf86ead8d20387a01"
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts": {
+        "version": "681ff418b376decce3eca91a663912c6b6dcdaeea9cd2e416d1a80f9023f196f",
+        "signature": "681ff418b376decce3eca91a663912c6b6dcdaeea9cd2e416d1a80f9023f196f"
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts": {
+        "version": "7ca85af2355737022faa8e616d91dcc73690a9b92f8b473d2b8c048b7f013de0",
+        "signature": "7ca85af2355737022faa8e616d91dcc73690a9b92f8b473d2b8c048b7f013de0"
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts": {
+        "version": "88d4830f57f71112dc0a2e2068a827e7a6035b8b6ba38bd5e39cbda679afe024",
+        "signature": "88d4830f57f71112dc0a2e2068a827e7a6035b8b6ba38bd5e39cbda679afe024"
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": {
+        "version": "8fc97ef271771dc6f81a9c846d007ac4f0cb5779e3f441c1de54dfda5046fe7b",
+        "signature": "8fc97ef271771dc6f81a9c846d007ac4f0cb5779e3f441c1de54dfda5046fe7b"
+      },
+      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts": {
+        "version": "96b967cc062c1ef48c4e6b1b9f548d86e41dcffda1618a35a948271682203158",
+        "signature": "96b967cc062c1ef48c4e6b1b9f548d86e41dcffda1618a35a948271682203158"
+      },
+      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts": {
+        "version": "b64fec482d5c612291eebd81e32993663ee90a5dc05cfe43464e6ef5ee1cae73",
+        "signature": "b64fec482d5c612291eebd81e32993663ee90a5dc05cfe43464e6ef5ee1cae73"
+      },
+      "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts": {
+        "version": "ae3e98448468e46474d817b5ebe74db11ab22c2feb60e292d96ce1a4ee963623",
+        "signature": "ae3e98448468e46474d817b5ebe74db11ab22c2feb60e292d96ce1a4ee963623"
+      },
+      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts": {
+        "version": "f0a2fdee9e801ac9320a8660dd6b8a930bf8c5b658d390ae0feafdba8b633688",
+        "signature": "f0a2fdee9e801ac9320a8660dd6b8a930bf8c5b658d390ae0feafdba8b633688"
+      },
+      "../node_modules/@nestjs/swagger/dist/index.d.ts": {
+        "version": "79390cdb37a29a9ca9f923ef4ce70877ac8fde8769c0b7e90562315c65314e9a",
+        "signature": "79390cdb37a29a9ca9f923ef4ce70877ac8fde8769c0b7e90562315c65314e9a"
+      },
+      "../node_modules/@nestjs/swagger/index.d.ts": {
+        "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
+        "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
+      },
       "../src/cinema/dto/movie_theater.dto.ts": {
-        "version": "5dc8e398213dd4bdc3cfc86be184ea0173aadce7b666e032475825bb2343dc7a",
+        "version": "d1b6d969a4fc9fab230ca17190d18c141ef02dbce4967e6a67527a57c81dd26a",
         "signature": "5dca21fd8b3e7bc3cceeee094e74ac37a16bf76075b5e1e7fe201cb9909ed7ef"
       },
       "../src/cinema/service/movie_theater.service.ts": {
@@ -2058,11 +2186,11 @@
         "signature": "6b33f622e9422500fecaa26209ee3853b6ad0fe2909eea0eb87eb2fc143361e1"
       },
       "../src/cinema/cinema.controller.ts": {
-        "version": "464dc29167618d478123595058cb454f0356bdd942f750d44f9891aed7bb4763",
+        "version": "175b8b234deae99212566ffe6b992f88bad3249dfc4546833d17d9df0f78cd36",
         "signature": "a02a656596d000b336e9e9807f315bd0f8a3fac6ae941ba77c8032189b054f76"
       },
       "../src/cinema/cinema.module.ts": {
-        "version": "31256caec5ab30034a44cb7457bbfa5427e8c6ab65d0d9defb475b74c9a06f08",
+        "version": "7e272a6cc55b804ec1927888b423bef1d89b2e025e09303e47dec1522798feef",
         "signature": "c5a08ee61601dbbd5899582ee88c4ac9ff363f116cbbb8e2f1b3d11e7a809d90"
       },
       "../src/auth/local.strategy.ts": {
@@ -2650,144 +2778,16 @@
         "signature": "4838cf7c87f4c3e47a3fb619c004961761a314791c4e3e32ee1e46f97e84072e"
       },
       "../src/app.module.ts": {
-        "version": "eb747343ccc19567c94caa0712d40a4c9c6e3c23a0c63800e0a20162b95df43d",
+        "version": "6d89988ce74a73178bdd4ae370806ffeff363f5a0ca8a7a84ec6c54341daeeb6",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts": {
-        "version": "6ecc423e71318bafbd230e6059e082c377170dfc7e02fccfa600586f8604d452",
-        "signature": "6ecc423e71318bafbd230e6059e082c377170dfc7e02fccfa600586f8604d452"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts": {
-        "version": "772f9bdd2bf50c9c01b0506001545e9b878faa7394ad6e7d90b49b179a024584",
-        "signature": "772f9bdd2bf50c9c01b0506001545e9b878faa7394ad6e7d90b49b179a024584"
-      },
-      "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts": {
-        "version": "7042fea4affa85bd05c1c7c9a2e42773738e3aced630b1c7e8e6b48e90a48069",
-        "signature": "7042fea4affa85bd05c1c7c9a2e42773738e3aced630b1c7e8e6b48e90a48069"
-      },
-      "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts": {
-        "version": "02dafa194c95b7c0293059512b8ea3bd95402c6e4bc8331dab7e92e842260c56",
-        "signature": "02dafa194c95b7c0293059512b8ea3bd95402c6e4bc8331dab7e92e842260c56"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts": {
-        "version": "10e0bec39a58664907f32d33b825155a4efea3e74e62bd57206bce35486891d6",
-        "signature": "10e0bec39a58664907f32d33b825155a4efea3e74e62bd57206bce35486891d6"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts": {
-        "version": "cd1ccdd9fd7980d43dfede5d42ee3d18064baed98b136089cf7c8221d562f058",
-        "signature": "cd1ccdd9fd7980d43dfede5d42ee3d18064baed98b136089cf7c8221d562f058"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts": {
-        "version": "09adc0cb93ff0ed4dbec311664bb4d63ef5d017cc994680d2888050dbccbd24c",
-        "signature": "09adc0cb93ff0ed4dbec311664bb4d63ef5d017cc994680d2888050dbccbd24c"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts": {
-        "version": "999fa84c5df2d19909d68a43ce89a5dddfb30e526f7796ea995809a09f53e393",
-        "signature": "999fa84c5df2d19909d68a43ce89a5dddfb30e526f7796ea995809a09f53e393"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts": {
-        "version": "a1c3f57b4a8fab964b3db5b6a9aeb8fd4472b58e0c51673984c59809f0b55fec",
-        "signature": "a1c3f57b4a8fab964b3db5b6a9aeb8fd4472b58e0c51673984c59809f0b55fec"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts": {
-        "version": "ae23a65a2b664ffe979b0a2a98842e10bdf3af67a356f14bbc9d77eb3ab13585",
-        "signature": "ae23a65a2b664ffe979b0a2a98842e10bdf3af67a356f14bbc9d77eb3ab13585"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts": {
-        "version": "eccf6ad2a8624329653896e8dbd03f30756cbd902a81b5d3942d6cf0e1a21575",
-        "signature": "eccf6ad2a8624329653896e8dbd03f30756cbd902a81b5d3942d6cf0e1a21575"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": {
-        "version": "334ed2e25a7ebc8db8aac231bab5a5b57a1b6f8063186a92314f4ddf3d74d4e2",
-        "signature": "334ed2e25a7ebc8db8aac231bab5a5b57a1b6f8063186a92314f4ddf3d74d4e2"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts": {
-        "version": "5af015a9834e0f5cf56a9089ddf0ca87a56bd3f8ad0eb79c8cc95968aa867923",
-        "signature": "5af015a9834e0f5cf56a9089ddf0ca87a56bd3f8ad0eb79c8cc95968aa867923"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts": {
-        "version": "62463aa3d299ae0cdc5473d2ac32213a05753c3adce87a8801c6d2b114a64116",
-        "signature": "62463aa3d299ae0cdc5473d2ac32213a05753c3adce87a8801c6d2b114a64116"
-      },
-      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts": {
-        "version": "c9c2eabaad71c534d7de16385977f95184fdf3ddd0339dadbd5d599488d94f90",
-        "signature": "c9c2eabaad71c534d7de16385977f95184fdf3ddd0339dadbd5d599488d94f90"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts": {
-        "version": "bdf0a372e233a8f5ab5daba2763ab8897e1044d735c1698a261b8e2ab08d8d13",
-        "signature": "bdf0a372e233a8f5ab5daba2763ab8897e1044d735c1698a261b8e2ab08d8d13"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts": {
-        "version": "e217963df120e4e87abaf374c5060ade29b9b81dafc81287b3710f95b49ffde0",
-        "signature": "e217963df120e4e87abaf374c5060ade29b9b81dafc81287b3710f95b49ffde0"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": {
-        "version": "09500c54a8b7405b2300e5e1716fb1c35627ad90b966db78962fdeeb77d58461",
-        "signature": "09500c54a8b7405b2300e5e1716fb1c35627ad90b966db78962fdeeb77d58461"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts": {
-        "version": "f6b244e6e11ff78419f979c56e1c8eecd277c54fa932a1eae39f69530ed6b0ce",
-        "signature": "f6b244e6e11ff78419f979c56e1c8eecd277c54fa932a1eae39f69530ed6b0ce"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts": {
-        "version": "fef736cfb404b4db9aa942f377dbbac6edb76d18aabd3b647713fa75da8939e9",
-        "signature": "fef736cfb404b4db9aa942f377dbbac6edb76d18aabd3b647713fa75da8939e9"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts": {
-        "version": "45659c92e49dfca4601acc7e57fbb03a71513c69768984baf86ead8d20387a01",
-        "signature": "45659c92e49dfca4601acc7e57fbb03a71513c69768984baf86ead8d20387a01"
-      },
-      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts": {
-        "version": "681ff418b376decce3eca91a663912c6b6dcdaeea9cd2e416d1a80f9023f196f",
-        "signature": "681ff418b376decce3eca91a663912c6b6dcdaeea9cd2e416d1a80f9023f196f"
-      },
-      "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts": {
-        "version": "7ca85af2355737022faa8e616d91dcc73690a9b92f8b473d2b8c048b7f013de0",
-        "signature": "7ca85af2355737022faa8e616d91dcc73690a9b92f8b473d2b8c048b7f013de0"
-      },
-      "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts": {
-        "version": "88d4830f57f71112dc0a2e2068a827e7a6035b8b6ba38bd5e39cbda679afe024",
-        "signature": "88d4830f57f71112dc0a2e2068a827e7a6035b8b6ba38bd5e39cbda679afe024"
-      },
-      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": {
-        "version": "8fc97ef271771dc6f81a9c846d007ac4f0cb5779e3f441c1de54dfda5046fe7b",
-        "signature": "8fc97ef271771dc6f81a9c846d007ac4f0cb5779e3f441c1de54dfda5046fe7b"
-      },
-      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts": {
-        "version": "96b967cc062c1ef48c4e6b1b9f548d86e41dcffda1618a35a948271682203158",
-        "signature": "96b967cc062c1ef48c4e6b1b9f548d86e41dcffda1618a35a948271682203158"
-      },
-      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts": {
-        "version": "b64fec482d5c612291eebd81e32993663ee90a5dc05cfe43464e6ef5ee1cae73",
-        "signature": "b64fec482d5c612291eebd81e32993663ee90a5dc05cfe43464e6ef5ee1cae73"
-      },
-      "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts": {
-        "version": "ae3e98448468e46474d817b5ebe74db11ab22c2feb60e292d96ce1a4ee963623",
-        "signature": "ae3e98448468e46474d817b5ebe74db11ab22c2feb60e292d96ce1a4ee963623"
-      },
-      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts": {
-        "version": "f0a2fdee9e801ac9320a8660dd6b8a930bf8c5b658d390ae0feafdba8b633688",
-        "signature": "f0a2fdee9e801ac9320a8660dd6b8a930bf8c5b658d390ae0feafdba8b633688"
-      },
-      "../node_modules/@nestjs/swagger/dist/index.d.ts": {
-        "version": "79390cdb37a29a9ca9f923ef4ce70877ac8fde8769c0b7e90562315c65314e9a",
-        "signature": "79390cdb37a29a9ca9f923ef4ce70877ac8fde8769c0b7e90562315c65314e9a"
-      },
-      "../node_modules/@nestjs/swagger/index.d.ts": {
-        "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
-        "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
       "../src/main.ts": {
         "version": "0488d0906a6447f2350d4c714561d77275905a307adcb02411debcc1572de7f9",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       },
-      "../src/cinema/entity/auditorium.entity.ts": {
-        "version": "bc2dec2ae739c20084883f58efdbc8f3cc1086c546c71a642dc89b96e1dd8151",
-        "signature": "b88860daed22c0da2230edef96607f73af7aaa2f82dd65fb7bf127aef82378c8"
-      },
       "../src/cinema/entity/patner.entity.ts": {
-        "version": "1bdfaac34164ce22a793f549300ea923e95b562be1eb1dc1562991b668f2e243",
-        "signature": "d4b735ee919d86679868e60d3d33c3b26525bcc8d6fc25817b312ab0865e3179"
+        "version": "accb730453ad52bef84bb8b1ff9f4c088d673e5dc5ef0cd164226e49c1901714",
+        "signature": "cff37dc60f73f31ae4afabe1d259e4098aa6c4d6485bff51383071bd8e6553e3"
       },
       "../src/patner/patner.controller.ts": {
         "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -4838,20 +4838,35 @@
         "../src/cinema/entity/movie.entity.ts",
         "../src/cinema/dto/movie.dto.ts"
       ],
-      "../src/cinema/entity/screening.entity.ts": [
-        "../node_modules/typeorm/index.d.ts"
-      ],
-      "../src/cinema/entity/seat_reserved.entity.ts": [
-        "../node_modules/typeorm/index.d.ts"
-      ],
-      "../src/cinema/entity/seat.entity.ts": [
-        "../node_modules/typeorm/index.d.ts"
-      ],
-      "../src/cinema/entity/reservation.entity.ts": [
-        "../node_modules/typeorm/index.d.ts"
-      ],
       "../src/cinema/entity/movie_theater.entity.ts": [
         "../node_modules/typeorm/index.d.ts"
+      ],
+      "../src/cinema/entity/auditorium.entity.ts": [
+        "../node_modules/typeorm/index.d.ts"
+      ],
+      "../src/cinema/entity/screening.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/cinema/entity/movie_theater.entity.ts",
+        "../src/cinema/entity/auditorium.entity.ts",
+        "../src/cinema/entity/movie.entity.ts"
+      ],
+      "../src/cinema/entity/seat.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/cinema/entity/auditorium.entity.ts"
+      ],
+      "../src/cinema/entity/reservation.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/cinema/entity/movie_theater.entity.ts",
+        "../src/cinema/entity/seat_reserved.entity.ts",
+        "../src/cinema/entity/screening.entity.ts",
+        "../src/cinema/entity/movie.entity.ts"
+      ],
+      "../src/cinema/entity/seat_reserved.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/cinema/entity/seat.entity.ts",
+        "../src/cinema/entity/reservation.entity.ts",
+        "../src/cinema/entity/movie_theater.entity.ts",
+        "../src/cinema/entity/screening.entity.ts"
       ],
       "../src/cinema/service/screening.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -4865,6 +4880,89 @@
         "../src/cinema/entity/reservation.entity.ts",
         "../src/cinema/dto/reservation_ticket.dto.ts",
         "../src/cinema/entity/movie_theater.entity.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/index.d.ts": [
+        "../node_modules/reflect-metadata/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/document-builder.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
+        "../node_modules/@nestjs/swagger/dist/utils/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/index.d.ts"
+      ],
+      "../src/cinema/dto/movie_theater.dto.ts": [
+        "../node_modules/@nestjs/swagger/index.d.ts"
       ],
       "../src/cinema/service/movie_theater.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -4910,7 +5008,8 @@
         "../src/cinema/entity/seat_reserved.entity.ts",
         "../src/cinema/entity/seat.entity.ts",
         "../src/cinema/entity/reservation.entity.ts",
-        "../src/cinema/service/reservation.service.ts"
+        "../src/cinema/service/reservation.service.ts",
+        "../src/cinema/entity/auditorium.entity.ts"
       ],
       "../src/auth/local.strategy.ts": [
         "../node_modules/@nestjs/passport/index.d.ts",
@@ -5605,95 +5704,13 @@
         "../src/cinema/entity/reservation.entity.ts",
         "../node_modules/@nestjs/core/index.d.ts",
         "../src/shared/http-error.filter.ts",
-        "../src/shared/logging.interceptor.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
-        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
-        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
-        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
-        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/index.d.ts": [
-        "../node_modules/reflect-metadata/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/document-builder.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
-        "../node_modules/@nestjs/swagger/dist/utils/index.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/index.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/index.d.ts"
+        "../src/shared/logging.interceptor.ts",
+        "../src/cinema/entity/auditorium.entity.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
         "../src/app.module.ts",
         "../node_modules/@nestjs/swagger/index.d.ts"
-      ],
-      "../src/cinema/entity/auditorium.entity.ts": [
-        "../node_modules/typeorm/index.d.ts"
       ],
       "../src/cinema/entity/patner.entity.ts": [
         "../node_modules/typeorm/index.d.ts"
@@ -7660,6 +7677,86 @@
         "../src/cinema/dto/screening.dto.ts",
         "../src/cinema/dto/reservation_ticket.dto.ts"
       ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/index.d.ts": [
+        "../node_modules/reflect-metadata/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/document-builder.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
+        "../node_modules/@nestjs/swagger/dist/utils/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/index.d.ts"
+      ],
       "../src/cinema/service/movie_theater.service.ts": [
         "../node_modules/typeorm/index.d.ts",
         "../src/cinema/entity/movie_theater.entity.ts",
@@ -8335,86 +8432,6 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/rxjs/index.d.ts"
       ],
-      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
-        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
-        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
-        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
-        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/dist/index.d.ts": [
-        "../node_modules/reflect-metadata/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/document-builder.d.ts",
-        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
-        "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
-        "../node_modules/@nestjs/swagger/dist/utils/index.d.ts"
-      ],
-      "../node_modules/@nestjs/swagger/index.d.ts": [
-        "../node_modules/@nestjs/swagger/dist/index.d.ts"
-      ],
       "../node_modules/@types/babel__generator/index.d.ts": [
         "../node_modules/@babel/types/lib/index.d.ts"
       ],
@@ -9023,17 +9040,49 @@
       "../src/cinema/entity/movie.entity.ts",
       "../src/cinema/dto/movie.dto.ts",
       "../src/cinema/service/movie.service.ts",
+      "../src/cinema/entity/movie_theater.entity.ts",
+      "../src/cinema/entity/auditorium.entity.ts",
       "../src/cinema/entity/screening.entity.ts",
       "../src/cinema/dto/screening.dto.ts",
-      "../src/cinema/entity/seat_reserved.entity.ts",
       "../src/cinema/entity/seat.entity.ts",
       "../src/cinema/entity/reservation.entity.ts",
       "../src/cinema/dto/reservation_ticket.dto.ts",
-      "../src/cinema/entity/movie_theater.entity.ts",
       "../src/cinema/service/screening.service.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+      "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
+      "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
+      "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts",
+      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts",
+      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
+      "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts",
+      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts",
+      "../node_modules/@nestjs/swagger/dist/index.d.ts",
+      "../node_modules/@nestjs/swagger/index.d.ts",
       "../src/cinema/dto/movie_theater.dto.ts",
       "../src/cinema/service/movie_theater.service.ts",
       "../src/cinema/service/reservation.service.ts",
+      "../src/cinema/cinema.controller.ts",
       "../src/cinema/cinema.module.ts",
       "../src/auth/local.strategy.ts",
       "../src/auth/constants.ts",
@@ -9182,39 +9231,7 @@
       "../node_modules/rxjs/operators/index.d.ts",
       "../src/shared/logging.interceptor.ts",
       "../src/app.module.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
-      "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts",
-      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
-      "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
-      "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts",
-      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
-      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts",
-      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
-      "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts",
-      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts",
-      "../node_modules/@nestjs/swagger/dist/index.d.ts",
-      "../node_modules/@nestjs/swagger/index.d.ts",
       "../src/main.ts",
-      "../src/cinema/entity/auditorium.entity.ts",
       "../src/cinema/entity/patner.entity.ts",
       "../src/patner/patner.controller.ts",
       "../src/patner/patner.module.ts",
@@ -9260,7 +9277,7 @@
       "../node_modules/@types/ws/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/cinema/cinema.controller.ts"
+      "../src/cinema/entity/seat_reserved.entity.ts"
     ]
   },
   "version": "3.7.2"

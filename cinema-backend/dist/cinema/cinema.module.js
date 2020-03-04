@@ -19,6 +19,7 @@ const seat_reserved_entity_1 = require("./entity/seat_reserved.entity");
 const seat_entity_1 = require("./entity/seat.entity");
 const reservation_entity_1 = require("./entity/reservation.entity");
 const reservation_service_1 = require("./service/reservation.service");
+const auditorium_entity_1 = require("./entity/auditorium.entity");
 let CinemaModule = class CinemaModule {
 };
 CinemaModule = __decorate([
@@ -30,6 +31,7 @@ CinemaModule = __decorate([
             typeorm_1.TypeOrmModule.forFeature([seat_reserved_entity_1.SeatReserved]),
             typeorm_1.TypeOrmModule.forFeature([seat_entity_1.Seat]),
             typeorm_1.TypeOrmModule.forFeature([reservation_entity_1.Reservation]),
+            typeorm_1.TypeOrmModule.forFeature([auditorium_entity_1.Auditorium]),
         ],
         controllers: [cinema_controller_1.CinemaController],
         providers: [movie_service_1.MovieService, screening_service_1.ScreeningService, movie_theater_service_1.MovieTheaterService, reservation_service_1.ReservationService],
